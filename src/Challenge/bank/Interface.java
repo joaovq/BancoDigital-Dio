@@ -8,6 +8,5 @@ public interface Interface {
 
      void imprimirExtrato();
 
-     Double
 
 }

@@ -24,10 +24,11 @@ public class Banco {
             System.out.println("");
             System.out.println("Banco: "+this.getNome());
             System.out.println("Tipo: "+ lista.getClass().getSimpleName());
-            System.out.println("Agencia "+ lista.getAgencia());
+            /*System.out.println("Agencia "+ lista.getAgencia());
             System.out.println("Cliente: "+ lista.cliente.getNome());
             System.out.println("Número da Conta: "+ lista.getNumero());
-            System.out.println("Total na conta: "+ lista.getSaldo());
+            System.out.println("Total na conta: "+ lista.getSaldo());*/
+            lista.imprimir();
         }
 
 

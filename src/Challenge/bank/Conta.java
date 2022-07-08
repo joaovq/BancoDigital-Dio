@@ -6,6 +6,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public abstract class Conta implements Interface{
 // visivel dentro da classe, mesmo pacote e subclasses
+
+
     private static final int AGENCIA_PADRAO = 1;
     private static int SEQUENCIAL = 1;
 //    Em private, só dá acesso na classe.
@@ -14,6 +16,8 @@ public abstract class Conta implements Interface{
     @Getter protected int numero;
     @Getter protected double saldo;
      protected Cliente cliente;
+
+
 
     public Conta(Cliente cliente) {
 //        super é usado para refereciar objetos da classe pai, numa classe filha
